@@ -6,7 +6,7 @@ export const MenuItem = ({id, text}) => {
 
   return (
     <div>
-        <p>{header} <br/> {body}</p>
+        <p>{header} <br/></p>
     </div>
   )
 }
