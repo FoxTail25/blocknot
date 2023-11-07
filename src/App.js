@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Blocknot } from './blocknot/Blocknot';
+import { Blocknot } from './components/blocknot/Blocknot';
 
 function App() {
   return (
