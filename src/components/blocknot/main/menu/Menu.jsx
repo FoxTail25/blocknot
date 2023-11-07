@@ -5,13 +5,9 @@ import a from './sassCSS/menu.module.css'
 
 export const Menu = () => {
 
-    const context = useContext(BlocknotStore)
-
-    // console.log(context)
+    const context = useContext(BlocknotStore).arrRecord
 
     let record = context.map(el => <MenuItem key={el.id} {...el}/>)
-
-    // console.log(record)
 
     return (
         <aside>

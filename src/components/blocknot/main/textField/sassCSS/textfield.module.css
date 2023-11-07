@@ -1,9 +1,19 @@
-.body {
-  width: 100%;
+.textblock {
+  width: 70%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.body textarea {
+.textblock h2 {
+  margin: 5px;
+}
+.textblock textarea {
   width: 90%;
+  height: 90%;
+  margin-bottom: 5px;
   resize: none;
-  font-size: 14px;
-  line-height: 16px;
-}
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}/*# sourceMappingURL=textfield.module.css.map */
