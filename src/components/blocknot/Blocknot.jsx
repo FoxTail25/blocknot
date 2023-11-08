@@ -30,12 +30,17 @@ export const Blocknot = () => {
       return el
     }))
   }
+  function delRecord(id) {
+    setArrRecord(arrRecord.filter(el => el.id !== id))
+    setBlocknot([])
+  }
 
   let context = {
     arrRecord,
     changeRecord,
     setChangeField,
     blocknot,
+    delRecord
   }
 
   return (
